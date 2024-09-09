@@ -1,0 +1,17 @@
+F:\MVP\personal\TR\MARKET_DOTNET_APPLICATION\Market\MarketFormsApplication\bin\Debug\MarketFormsApplication.exe.config
+F:\MVP\personal\TR\MARKET_DOTNET_APPLICATION\Market\MarketFormsApplication\bin\Debug\MarketFormsApplication.exe
+F:\MVP\personal\TR\MARKET_DOTNET_APPLICATION\Market\MarketFormsApplication\bin\Debug\MarketFormsApplication.pdb
+F:\MVP\personal\TR\MARKET_DOTNET_APPLICATION\Market\MarketFormsApplication\obj\Debug\MarketFormsApplication.Properties.Resources.resources
+F:\MVP\personal\TR\MARKET_DOTNET_APPLICATION\Market\MarketFormsApplication\obj\Debug\MarketFormsApplication.csproj.GenerateResource.Cache
+F:\MVP\personal\TR\MARKET_DOTNET_APPLICATION\Market\MarketFormsApplication\obj\Debug\MarketFormsApplication.exe
+F:\MVP\personal\TR\MARKET_DOTNET_APPLICATION\Market\MarketFormsApplication\obj\Debug\MarketFormsApplication.pdb
+F:\MVP\personal\TR\MARKET_DOTNET_APPLICATION\Market\MarketFormsApplication\obj\Debug\MarketFormsApplication.mainForm.resources
+F:\MVP\personal\TR\MARKET_DOTNET_APPLICATION\Market\MarketFormsApplication\obj\Debug\MarketFormsApplication.AddStockForm.resources
+F:\MVP\personal\TR\MARKET_DOTNET_APPLICATION\Market\MarketFormsApplication\obj\Debug\MarketFormsApplication.AddOptionTradeTypes.resources
+F:\MVP\personal\TR\MARKET_DOTNET_APPLICATION\Market\MarketFormsApplication\obj\Debug\MarketFormsApplication.AddOptionTrade.resources
+F:\MVP\personal\TR\MARKET_DOTNET_APPLICATION\Market\MarketFormsApplication\obj\Debug\MarketFormsApplication.EditOptionTradesForm.resources
+F:\MVP\personal\TR\MARKET_DOTNET_APPLICATION\Market\MarketFormsApplication\obj\Debug\MarketFormsApplication.AddStockTradesForm.resources
+F:\MVP\personal\TR\MARKET_DOTNET_APPLICATION\Market\MarketFormsApplication\obj\Debug\MarketFormsApplication.EditStockTradesForm.resources
+F:\MVP\personal\TR\MARKET_DOTNET_APPLICATION\Market\MarketFormsApplication\obj\Debug\MarketFormsApplication.Summary.resources
+F:\MVP\personal\TR\MARKET_DOTNET_APPLICATION\Market\MarketFormsApplication\obj\Debug\MarketFormsApplication.StockManagementForm.resources
+F:\MVP\personal\TR\MARKET_DOTNET_APPLICATION\Market\MarketFormsApplication\obj\Debug\MarketFormsApplication.csprojResolveAssemblyReference.cache

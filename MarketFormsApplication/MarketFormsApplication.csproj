@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{01AF81CD-10E6-44BA-BB21-EAB11B704A00}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MarketFormsApplication</RootNamespace>
+    <AssemblyName>MarketFormsApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddOptionTrade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddOptionTrade.Designer.cs">
+      <DependentUpon>AddOptionTrade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddOptionTradeTypes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddOptionTradeTypes.Designer.cs">
+      <DependentUpon>AddOptionTradeTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddStockForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddStockForm.Designer.cs">
+      <DependentUpon>AddStockForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddStockTradesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddStockTradesForm.Designer.cs">
+      <DependentUpon>AddStockTradesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ComboBoxItem.cs" />
+    <Compile Include="EditOptionTradesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditOptionTradesForm.Designer.cs">
+      <DependentUpon>EditOptionTradesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StockManagementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StockManagementForm.Designer.cs">
+      <DependentUpon>StockManagementForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditStockTradesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditStockTradesForm.Designer.cs">
+      <DependentUpon>EditStockTradesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainForm.Designer.cs">
+      <DependentUpon>mainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Summary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Summary.Designer.cs">
+      <DependentUpon>Summary.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddOptionTrade.resx">
+      <DependentUpon>AddOptionTrade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddOptionTradeTypes.resx">
+      <DependentUpon>AddOptionTradeTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddStockForm.resx">
+      <DependentUpon>AddStockForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddStockTradesForm.resx">
+      <DependentUpon>AddStockTradesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditOptionTradesForm.resx">
+      <DependentUpon>EditOptionTradesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StockManagementForm.resx">
+      <DependentUpon>StockManagementForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditStockTradesForm.resx">
+      <DependentUpon>EditStockTradesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainForm.resx">
+      <DependentUpon>mainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Summary.resx">
+      <DependentUpon>Summary.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
